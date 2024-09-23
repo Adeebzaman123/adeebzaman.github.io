@@ -1,0 +1,228 @@
+body {
+  background-color: hsla(0, 100%, 90%, 0.3);
+  color: rgb(245, 90, 39);
+}
+
+#top {
+  width: 102%;
+  background-image: url(https://images.unsplash.com/photo-1448906654166-444d494666b3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 0%;
+  scroll-padding-block: 5%;
+}
+
+#title {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10%;
+  font-size: 25px;
+}
+
+
+
+#london-eye {
+  width: 102%;
+  background-image: url(https://images.unsplash.com/photo-1559845865-5c82500c0f5a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9uZG9uJTIwZXllfGVufDB8fDB8fHww); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  scroll-padding-block: 5%;
+  
+}
+
+#london-eye-text {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10%;
+}
+
+#frameless {
+  width: 102%;
+  background-image: url(https://i0.wp.com/cms.frameless.com/wp-content/uploads/2023/11/The-world-around-us-1920x1080-1-aspect-ratio-1920-1080.jpg?fit=1920%2C1080&ssl=1); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#frameless-text {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10%;
+}
+
+#framelesss {
+  width: 102%;
+  background-image: url(https://iso.500px.com/wp-content/uploads/2013/08/11834033-1170.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 0%;
+  scroll-padding-block: 5%;
+}
+
+#framelesss-text {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10%;
+}
+
+#markets {
+  width: 102%;
+  background-image: url(https://i2-prod.liverpoolecho.co.uk/incoming/article10017548.ece/ALTERNATES/s1227b/JS68332149.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 0%;
+}
+
+#markets-text {
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 5%;
+  font-size: large;
+}
+
+
+
+
+
+.row {
+  padding-right: 7%;
+}
+
+img{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 80%;
+}
+
+#second-top a {
+  display: block;
+  color: rgb(191, 99, 71);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: white;
+  padding: 8px;
+  background-color: hsla(0, 100%, 90%, 0.3);
+}
+
+#second-top a:hover {
+  color: rgb(246, 242, 242);
+  background-color: pink;
+}
+
+#restaurants {
+  text-align: center;
+  padding-left: 8%;
+  img {
+  width: 92.8%;
+  height: 200px;
+  object-fit: cover;
+  }
+}
+
+.btn {
+  background-color: white;
+  border-color: black;
+  border-width: 3px;
+  color: black;
+}
+
+.highlight {
+  color: rgb(255, 0, 0);
+  font-size: 18px;     
+  font-weight: 40%;    
+  padding: 10px;       
+}
+
+.card:nth-of-type(3) .btn.btn-link 
+
+/* Content Section */
+.content {
+  width: 70%;
+  margin-right: 20px;
+}
+
+.content article {
+  margin-bottom: 20px;
+}
+
+.content article, aside {
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.content h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.content p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9d1;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: peachpuff;
+}
+
+footer {
+  background-color: peachpuff;
+  color: #fff;
+  padding: 10px 0;
+}
+footer a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #0a0a0a;
+}
+
+a {
+  transition: color 0.3s ease;
+}
